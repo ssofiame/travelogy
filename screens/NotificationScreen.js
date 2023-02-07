@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
-const NotificationsScreen = (navigation) => {
+const NotificationScreen = (navigation) => {
     return (
       <View style={styles.container}>
         <Text>Coming Soon</Text>
@@ -9,7 +9,7 @@ const NotificationsScreen = (navigation) => {
     );
 };
 
-export default NotificationsScreen;
+export default NotificationScreen;
 
 const styles = StyleSheet.create({
   container: {
